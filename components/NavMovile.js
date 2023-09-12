@@ -65,7 +65,7 @@ const Nav = () => {
     <nav className=''>
       {/* Inner*/}
 
-      <div className='fixed w-full bottom-0 flex xl:hidden flex-row gap-y-4 justify-around bg-black h-[55px] items-center'>
+      <div className='fixed w-full bottom-0 flex lg:hidden flex-row gap-y-4 justify-around bg-black h-[55px] items-center'>
         {navDataMovile.map(( link , index )=>{
           return(
             <Link 

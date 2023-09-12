@@ -12,10 +12,10 @@ const notification = {
 
 const Header = () => {
   return (
-    <header className="w-full bg-black flex flex-row items-center justify-between py-3 
-    xl:hidden ">     
-      <Image src={"/portfolio.png"} width={120} height={120} alt="" className="mx-2 md:mx-8"/>      
-      <Link href="/" className="mx-2 md:mx-8"> <span className="text-white text-4xl "> {notification.icon}  </span> </Link>
+    <header className="w-full bg-black flex flex-row items-center justify-between py-[1px] xl:py-3 
+    xl:hidden  border-b-2 border-gray-800 ">     
+      <Image src={"/portfolio.png"} width={100} height={120} alt="" className="mx-4 md:mx-8"/>      
+      <Link href="/" className="mx-4 md:mx-8"> <span className="text-white text-3xl "> {notification.icon}  </span> </Link>
     </header>  
   );
 };

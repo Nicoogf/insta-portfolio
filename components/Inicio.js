@@ -5,7 +5,7 @@ import PublicacionesContainer from "./PublicacionesContainer" ;
 const MidContent = () => {
   return (
 
-    <div className="w-auto xl:w-7/12 bg-black pt-4">
+    <div className="w-full lg:w-9/12 xl:w-7/12 bg-black pt-4">
       <Header />
       <HistoriasContainer />
       <PublicacionesContainer />

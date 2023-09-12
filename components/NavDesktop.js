@@ -53,17 +53,19 @@ import{
   
     return (     
   
-    <div className='hidden xl:flex border-r-2 border-gray-800
-    xl:w-2/12 flex-col justify-start items-start mx-0 max-w-sm min-h-screen relative bg-black'>
+    <div className='hidden lg:w-3/12 lg:flex border-r-2 border-gray-800 
+    xl:w-2/12 flex-col justify-between items-start mx-0 max-w-sm bg-black relative'>
 
-        <Image src={"/portfolio.png"} width={120} height={120} alt="" className="p-2 ml-8 mt-8"/>
+       
 
-        <div className='text-white mt-8 ml-6'>
+        <div className='text-white mt-8 ml-4 w-[100%]'>
+
+        <Image src={"/portfolio.png"} width={120} height={120} alt="" className="ml-4 mt-2 mb-8"/>
 
         {navDataPC.map(( link , index )=>{
             return(
 
-              <Link key={ index } href={link.path} className="flex flex-row items-center gap-x-4 py-4 w-64 rounded-md hover:bg-gris"> 
+              <Link key={ index } href={link.path} className=" w-[85%] flex flex-row items-center gap-x-2 py-4 pr-2 rounded-md hover:bg-gris"> 
                 <span className='text-3xl pl-4' > {link.icon} </span>  
                 <span className='text-white text-lg font-sm'>   {link.name}</span> 
              </Link>
@@ -74,7 +76,7 @@ import{
         </div>
 
        
-        <Link href={lastOption[0].path} className=" absolute bottom-8 left-4 flex flex-row items-center gap-x-4 py-4 w-64 rounded-md hover:bg-gris"> 
+        <Link href={lastOption[0].path} className="w-[85%] flex flex-row items-center gap-x-4 py-4 rounded-md hover:bg-gris absolute bottom-[15%] left-[5%]"> 
             <span className='text-3xl pl-4'> {lastOption[0].icon} </span>  
             <span className='text-white text-lg font-sm'> {lastOption[0].name} </span> 
         </Link>

@@ -34,7 +34,7 @@ module.exports = {
         purple: '#4f5bd5',
         gris : '#1a1a1ad9',
         rojoNotificacion : "#FF5353",
-        verificado : "#0095f6d9"
+        verificado : "#4CB4F8"
       },
       backgroundImage: {
         explosion: 'url("/bg-explosion.png")',

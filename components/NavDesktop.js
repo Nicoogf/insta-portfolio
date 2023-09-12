@@ -76,7 +76,7 @@ import{
         </div>
 
        
-        <Link href={lastOption[0].path} className="w-[85%] flex flex-row items-center gap-x-4 py-4 rounded-md hover:bg-gris absolute bottom-[15%] left-[5%]"> 
+        <Link href={lastOption[0].path} className="w-[85%] flex flex-row items-center gap-x-4 py-4 rounded-md hover:bg-gris absolute lg:bottom-[11%] left-[5%]"> 
             <span className='text-3xl pl-4'> {lastOption[0].icon} </span>  
             <span className='text-white text-lg font-sm'> {lastOption[0].name} </span> 
         </Link>

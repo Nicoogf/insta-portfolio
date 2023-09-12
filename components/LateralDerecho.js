@@ -15,13 +15,13 @@ const LateralDerecho = () => {
         </div>
 
         <div>
-         <h6 className="-p-1 -my-2 text-sm font-semibold text-white"> Desarrollador </h6> 
-         <h6 className="-p-1 -my-2 text-sm text-gray-400"> Front-end</h6>
+         <h6 className="-p-1 -my-1 text-sm font-semibold text-white"> Desarrollador </h6> 
+         <h6 className="-p-1 -my-1 text-sm text-gray-400"> Front-end</h6>
         </div>
 
         <div>
           <Link  href={"https://www.instagram.com/javascript.js/?hl=es"}    
-                 className='ml-8 text-sm font-semibold text-verificado'>
+                 className='ml-8 text-sm font-semibold text-verificado hover:text-white transition-all duration-300'>
 
                   Seguir
                    
@@ -32,7 +32,7 @@ const LateralDerecho = () => {
 
       {/*Sugerencia */}
 
-      <div className="w-[100%] flex flex-col mt-10 items-start ml-2">
+      <div className="w-[100%] flex flex-col mt-10 items-start ml-2 mb-5">
 
         <h5 className="font-semibold text-gray-400 text-md mb-6"> Manejo de </h5>
 
@@ -50,8 +50,8 @@ const LateralDerecho = () => {
 
           
           <div>
-          <Link  href={"https://www.instagram.com/javascript.js/?hl=es"}    
-                 className={'text-sm ml-4 text-verificado'}>
+          <Link  href={"https://lenguajehtml.com/"}    
+                 className={'text-sm ml-4 text-verificado hover:text-white transition-all duration-300'}>
 
                   Seguir
                    
@@ -75,7 +75,7 @@ const LateralDerecho = () => {
           
           <div>
           <Link  href={"https://www.instagram.com/javascript.js/?hl=es"}    
-                 className={'text-sm ml-4 text-verificado'}>
+                 className={'text-sm ml-4 text-verificado hover:text-white transition-all duration-300'}>
 
                   Seguir
                    
@@ -99,7 +99,7 @@ const LateralDerecho = () => {
           
           <div>
           <Link  href={"https://www.instagram.com/javascript.js/?hl=es"}    
-                 className={'text-sm ml-4 text-verificado'}>
+                 className={'text-sm ml-4 text-verificado hover:text-white transition-all duration-300'}>
 
                   Seguir
                    
@@ -123,7 +123,7 @@ const LateralDerecho = () => {
           
           <div>
           <Link  href={"https://www.instagram.com/javascript.js/?hl=es"}    
-                 className={'text-sm ml-4 text-verificado'}>
+                 className={'text-sm ml-4 text-verificado hover:text-white transition-all duration-300'}>
 
                   Seguir
                    
@@ -147,7 +147,7 @@ const LateralDerecho = () => {
             
             <div>
             <Link  href={"https://www.instagram.com/javascript.js/?hl=es"}    
-                  className={'text-sm ml-4 text-verificado'}>
+                  className={'text-sm ml-4 text-verificado hover:text-white transition-all duration-300'}>
 
                     Seguir
                     
@@ -171,7 +171,7 @@ const LateralDerecho = () => {
           
           <div>
           <Link  href={"https://www.instagram.com/javascript.js/?hl=es"}    
-                className={'text-sm ml-4 text-verificado'}>
+                className={'text-sm ml-4 text-verificado hover:text-white transition-all duration-300'}>
 
                   Seguir
                   
@@ -189,8 +189,40 @@ const LateralDerecho = () => {
 
       {/* Links */}
 
+      <div className="mb-8">
+      <Link  href={"https://lenguajehtml.com/"} className={'text-sm ml-4 text-gray-500 hover:underline '}>
+           Repositorio -         
+      </Link>
+
+      <Link  href={"https://lenguajehtml.com/"} className={'text-sm ml-4 text-gray-500 hover:underline '}>
+           Perfil Git -                 
+      </Link>
+
+      <Link  href={"https://lenguajehtml.com/"} className={'text-sm ml-4 text-gray-500 hover:underline '}>
+           Email -                 
+      </Link>
+
+      <Link  href={"https://lenguajehtml.com/"} className={'text-sm ml-4 text-gray-500 hover:underline '}>
+           Instagram                 
+      </Link>
+
+      <br />
+
+      <Link  href={"https://lenguajehtml.com/"} className={'text-sm ml-4 text-gray-500 hover:underline '}>
+           WhatsApp                
+      </Link>
+
+      <Link  href={"https://lenguajehtml.com/"} className={'text-sm ml-4 text-gray-500 hover:underline '}>
+           Linkedin                
+      </Link>
+
+      </div>
+
 
       {/* Descripcion */}
+      <div>
+        <h6 className={'ml-4 text-gray-500 hover:underline text-md '}>   © Porfolio realizado con Next.Js</h6>
+      </div>
     </div>
   ) 
 };

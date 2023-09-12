@@ -21,7 +21,8 @@ import LateralDerecho from "./LateralDerecho";
 
 const Layout = ( {children} ) => {
   return (
-    <div className="flex flex-row ">
+    <div className="flex flex-row">
+
       <NavMovile />
       <NavDesktop />
       <Inicio />

@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const HistoriasContainer = () => {
   return (
-    <div className=" w-full mx-auto flex flex-row md:justify-center gap-2 md:gap-4 lg:gap-8 xl:w-3/5 xl:mx-0 bg-black text-white justify-around xl:p-4">
+    <div className="w-full mx-auto flex flex-row md:justify-center gap-2 md:gap-4 lg:gap-8  xl:mx-0 bg-black text-white justify-around xl:p-4">
 
       <Link className="flex flex-col items-center" href="/">
         <div className="bg-gradient-to-r from-yellow via-orange to-violet rounded-full p-[3px]">

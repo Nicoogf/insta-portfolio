@@ -16,14 +16,16 @@ import Header from "./Header" ;
 import TopLeft from "./TopLeftImg" ;
 import InicioPage from "../pages/inicio";
 import HistoriasContainer from "./HistoriasContainer";
-import Inicio from "./CardLeft";
+import Inicio from "./Inicio";
+import LateralDerecho from "./LateralDerecho";
 
 const Layout = ( {children} ) => {
   return (
     <div className="flex flex-row">
       <NavMovile />
       <NavDesktop />
-      <Inicio />     
+      <Inicio />
+      <LateralDerecho />     
      
     </div>
   );

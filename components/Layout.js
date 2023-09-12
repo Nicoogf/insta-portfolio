@@ -14,15 +14,17 @@ import NavMovile from "./NavMovile" ;
 import NavDesktop from "./NavDesktop" ;
 import Header from "./Header" ;
 import TopLeft from "./TopLeftImg" ;
+import InicioPage from "../pages/inicio";
+import HistoriasContainer from "./HistoriasContainer";
+import Inicio from "./CardLeft";
 
 const Layout = ( {children} ) => {
   return (
-    <div>
+    <div className="flex flex-row">
       <NavMovile />
       <NavDesktop />
-      <Header />
-      <TopLeft />
-      { children }
+      <Inicio />     
+     
     </div>
   );
 };

@@ -52,7 +52,7 @@ export const navDataPC = [
 ];
 
 //Next Link
-import  Link  from 'next/link';
+import Link from 'next/link';
 
 //Next Router
 import { useRouter } from 'next/router';
@@ -70,10 +70,9 @@ const Nav = () => {
           return(
             <Link 
             href={link.path}    className={`hover:bg-gris py-2 px-4 rounded-md  `}
-         
             key={ index }> 
 
-                <span className={` text-3xl ${link.path === pathname ? 'bg-gris text-red-500' : 'text-white'}`}> 
+                <span className={` text-3xl ${link.path === pathname ? 'bg-gris text-rojoNotificacion' : 'text-white'}`}> 
                 {link.icon}  
                 </span> 
 

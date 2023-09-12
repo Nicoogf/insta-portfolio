@@ -41,7 +41,7 @@ import{
   ]
   
   //Next Link
-  import Link  from 'next/link';
+  import Link from 'next/link';
   import Image from "next/image";
 
   //Next Router
@@ -54,7 +54,7 @@ import{
     return (     
   
     <div className='hidden xl:flex border-r-2 border-gray-800
-    w-72  flex-col justify-start items-start mx-0 max-w-sm min-h-screen relative bg-black'>
+    w-72 flex-col justify-start items-start mx-0 max-w-sm min-h-screen relative bg-black'>
 
         <Image src={"/portfolio.png"} width={120} height={120} alt="" className="p-2 ml-8 mt-8"/>
 
@@ -63,7 +63,7 @@ import{
         {navDataPC.map(( link , index )=>{
             return(
 
-              <Link href={link.path} className="flex flex-row items-center gap-x-4 py-4 w-64 rounded-md hover:bg-gris"> 
+              <Link key={ index } href={link.path} className="flex flex-row items-center gap-x-4 py-4 w-64 rounded-md hover:bg-gris"> 
                 <span className='text-3xl pl-4' > {link.icon} </span>  
                 <span className='text-white text-lg font-sm'>   {link.name}</span> 
              </Link>

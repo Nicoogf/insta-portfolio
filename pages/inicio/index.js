@@ -88,8 +88,8 @@ const aboutData = [
   },
 ];
 
-const About = () => {
-  return <div>About</div>;
+const InicioPage = () => {
+  return <div className = "border-4 border-indigo-500/100">Bienvenidos al inicio</div>;
 };
 
-export default About;
+export default InicioPage;

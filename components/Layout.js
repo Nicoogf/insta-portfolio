@@ -12,10 +12,6 @@ const sora = Sora({
 
 import NavMovile from "./NavMovile" ;
 import NavDesktop from "./NavDesktop" ;
-import Header from "./Header" ;
-import TopLeft from "./TopLeftImg" ;
-import InicioPage from "../pages/inicio";
-import HistoriasContainer from "./HistoriasContainer";
 import Inicio from "./Inicio";
 import LateralDerecho from "./LateralDerecho";
 
